@@ -1,0 +1,38 @@
+
+/home/cookiecoolkid/.ssh/ics2023/am-kernels/tests/cpu-tests/build/volatile-test-riscv32-nemu.elf:     file format elf32-littleriscv
+
+
+Disassembly of section .text:
+
+80000000 <_start>:
+80000000:	00000413          	li	s0,0
+80000004:	00009117          	auipc	sp,0x9
+80000008:	ffc10113          	addi	sp,sp,-4 # 80009000 <_end>
+8000000c:	040000ef          	jal	ra,8000004c <_trm_init>
+
+80000010 <main>:
+80000010:	00009797          	auipc	a5,0x9
+80000014:	fe078823          	sb	zero,-16(a5) # 80009000 <_end>
+80000018:	00009717          	auipc	a4,0x9
+8000001c:	fe870713          	addi	a4,a4,-24 # 80009000 <_end>
+80000020:	0ff00693          	li	a3,255
+80000024:	00074783          	lbu	a5,0(a4)
+80000028:	fed79ee3          	bne	a5,a3,80000024 <main+0x14>
+8000002c:	03300793          	li	a5,51
+80000030:	00f70023          	sb	a5,0(a4)
+80000034:	03400793          	li	a5,52
+80000038:	00f70023          	sb	a5,0(a4)
+8000003c:	f8600793          	li	a5,-122
+80000040:	00f70023          	sb	a5,0(a4)
+80000044:	00000513          	li	a0,0
+80000048:	00008067          	ret
+
+8000004c <_trm_init>:
+8000004c:	ff010113          	addi	sp,sp,-16
+80000050:	00000517          	auipc	a0,0x0
+80000054:	01c50513          	addi	a0,a0,28 # 8000006c <_etext>
+80000058:	00112623          	sw	ra,12(sp)
+8000005c:	fb5ff0ef          	jal	ra,80000010 <main>
+80000060:	00050513          	mv	a0,a0
+80000064:	00100073          	ebreak
+80000068:	0000006f          	j	80000068 <_trm_init+0x1c>

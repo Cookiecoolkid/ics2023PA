@@ -1,0 +1,22 @@
+/home/cookiecoolkid/.ssh/ics2023/fceux-am/build/native/src/drivers/sdl/input.o: \
+ /home/cookiecoolkid/.ssh/ics2023/fceux-am/src/drivers/sdl/input.cpp \
+ /home/cookiecoolkid/.ssh/ics2023/abstract-machine/klib/include/klib-macros.h \
+ /home/cookiecoolkid/.ssh/ics2023/fceux-am/src/drivers/sdl/main.h \
+ /home/cookiecoolkid/.ssh/ics2023/fceux-am/src/drivers/sdl/../../driver.h \
+ /home/cookiecoolkid/.ssh/ics2023/fceux-am/src/drivers/sdl/../../types.h \
+ /home/cookiecoolkid/.ssh/ics2023/abstract-machine/klib/include/klib.h \
+ /home/cookiecoolkid/.ssh/ics2023/abstract-machine/am/include/am.h \
+ /home/cookiecoolkid/.ssh/ics2023/abstract-machine/am/include/arch/native.h \
+ /home/cookiecoolkid/.ssh/ics2023/abstract-machine/am/include/amdev.h \
+ /home/cookiecoolkid/.ssh/ics2023/fceux-am/src/drivers/sdl/../../git.h \
+ /home/cookiecoolkid/.ssh/ics2023/fceux-am/src/drivers/sdl/../../utils/md5.h \
+ /home/cookiecoolkid/.ssh/ics2023/fceux-am/src/drivers/sdl/../../utils/../types.h \
+ /home/cookiecoolkid/.ssh/ics2023/fceux-am/src/drivers/sdl/../../utils/valuearray.h \
+ /home/cookiecoolkid/.ssh/ics2023/fceux-am/src/drivers/sdl/../../file.h \
+ /home/cookiecoolkid/.ssh/ics2023/fceux-am/src/drivers/sdl/../../emufile.h \
+ /home/cookiecoolkid/.ssh/ics2023/fceux-am/src/drivers/sdl/dface.h \
+ /home/cookiecoolkid/.ssh/ics2023/fceux-am/src/drivers/sdl/input.h \
+ /home/cookiecoolkid/.ssh/ics2023/fceux-am/src/drivers/sdl/sdl-video.h \
+ /home/cookiecoolkid/.ssh/ics2023/fceux-am/src/drivers/sdl/sdl.h \
+ /home/cookiecoolkid/.ssh/ics2023/fceux-am/src/drivers/sdl/../../fceu.h \
+ /home/cookiecoolkid/.ssh/ics2023/fceux-am/src/drivers/sdl/keyscan.h

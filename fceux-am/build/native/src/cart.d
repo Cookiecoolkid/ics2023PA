@@ -1,0 +1,20 @@
+/home/cookiecoolkid/.ssh/ics2023/fceux-am/build/native/src/cart.o: \
+ /home/cookiecoolkid/.ssh/ics2023/fceux-am/src/cart.cpp \
+ /home/cookiecoolkid/.ssh/ics2023/fceux-am/src/types.h \
+ /home/cookiecoolkid/.ssh/ics2023/abstract-machine/klib/include/klib.h \
+ /home/cookiecoolkid/.ssh/ics2023/abstract-machine/am/include/am.h \
+ /home/cookiecoolkid/.ssh/ics2023/abstract-machine/am/include/arch/native.h \
+ /home/cookiecoolkid/.ssh/ics2023/abstract-machine/am/include/amdev.h \
+ /home/cookiecoolkid/.ssh/ics2023/fceux-am/src/fceu.h \
+ /home/cookiecoolkid/.ssh/ics2023/fceux-am/src/git.h \
+ /home/cookiecoolkid/.ssh/ics2023/fceux-am/src/utils/md5.h \
+ /home/cookiecoolkid/.ssh/ics2023/fceux-am/src/utils/../types.h \
+ /home/cookiecoolkid/.ssh/ics2023/fceux-am/src/utils/valuearray.h \
+ /home/cookiecoolkid/.ssh/ics2023/fceux-am/src/ppu.h \
+ /home/cookiecoolkid/.ssh/ics2023/fceux-am/src/driver.h \
+ /home/cookiecoolkid/.ssh/ics2023/fceux-am/src/file.h \
+ /home/cookiecoolkid/.ssh/ics2023/fceux-am/src/emufile.h \
+ /home/cookiecoolkid/.ssh/ics2023/fceux-am/src/cart.h \
+ /home/cookiecoolkid/.ssh/ics2023/fceux-am/src/x6502.h \
+ /home/cookiecoolkid/.ssh/ics2023/fceux-am/src/x6502struct.h \
+ /home/cookiecoolkid/.ssh/ics2023/fceux-am/src/utils/memory.h
